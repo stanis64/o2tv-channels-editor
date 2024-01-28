@@ -1,1 +1,1 @@
-# o2tv-channels-editor
+# O2TV Channels Editor
