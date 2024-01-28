@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e6225b-0a88-4a77-a0f4-af5e8957ef9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/change-channel-number.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/change-channel-visibility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/channels_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/my-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats/index.php" afterDir="false" />
+    <list default="true" id="e0e6225b-0a88-4a77-a0f4-af5e8957ef9f" name="Changes" comment="Version 1.0">
+      <change afterPath="$PROJECT_DIR$/vendor/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
@@ -34,7 +18,8 @@
       <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +50,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -85,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/mnt/server.stanis.net/var/www/o2tv-channels-editor.dew/web",
+    "last_opened_file_path": "/mnt/server.stanis.net/var/www/o2tv-channels-editor.dew/web/vendor",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -118,8 +104,25 @@
       <updated>1706387437771</updated>
       <workItem from="1706387438834" duration="454000" />
       <workItem from="1706388126146" duration="2580000" />
-      <workItem from="1706428074857" duration="24866000" />
+      <workItem from="1706428074857" duration="25205000" />
     </task>
+    <task id="LOCAL-00001" summary="README and .gitignore">
+      <option name="closed" value="true" />
+      <created>1706480570464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706480570464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Version 1.0">
+      <option name="closed" value="true" />
+      <created>1706480620739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706480620739</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +130,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.latte" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README and .gitignore" />
+    <MESSAGE value="Version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
   </component>
 </project>
